@@ -4,7 +4,9 @@ import { RiStarSFill } from "react-icons/ri";
 export default function Testinomials() {
   return (
     <div className="max-w-screen-xl mx-auto py-10">
-      <div className="text-4xl pb-8  text-center">Testinomials</div>
+       <h2 className="text-lg font-semibold text-center text-gray-900">Testinomials</h2>
+      
+      <h1 className="text-4xl  pb-8  text-center">What Client Says?</h1>
       <div className="grid grid-cols-1 md:grid-cols-2 md:gap-8">
         <div className="flex flex-col  md:shadow-lg md:border rounded-lg p-10">
           <div className="flex gap-4 items-center">

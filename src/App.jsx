@@ -15,11 +15,11 @@ export default function App() {
     <>
     <HeroBanner/>
     <About/>
-    <Blogs/>
-    <Testinomials/>
       <Services/>
     <Experience/>
     <Whychooseus/>
+    <Testinomials/>
+    <Blogs/>
     <Footer/>
     </>
   )

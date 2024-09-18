@@ -19,7 +19,7 @@ export default function Blogs() {
   return (
     <>
       <div className="max-w-screen-xl mx-auto py-10">
-        <div className="text-4xl pb-8  text-center">Blogs</div>
+        <div className="text-4xl pb-8  text-center"> Our Latest Blogs</div>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-10 p-5 md:p-0">
           { blog.map((item,index)=>(
             <div key={index} className="shadow-lg hrounded-lg w-full border rounded border-gray-200 p-8 ">
